@@ -1,0 +1,193 @@
+.name {
+  text-align: left;
+  margin-left: 10px;
+  line-height: 35px;
+  font-size: 0.16rem;
+}
+
+.xa-popup .layer {
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+}
+
+.xa-popup .popup {
+  min-width: 300px;
+  /* height: 290px; */
+  /* background: #fff; */
+  background-color: #023039 !important;
+  z-index: 1001;
+  position: fixed;
+  left: 15%;
+  top: 15%;
+  box-shadow: 0 0 10px #888;
+  border-radius: 5px;
+  /* max-width: 520px;  */
+  /* overflow: hidden; */
+}
+
+.xa-popup .popup>.title {
+  width: 100%;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  font-size: 12px;
+  cursor: move;
+  position: relative;
+  background: #043f5a;
+}
+
+.xa-popup .popup>.title>.close {
+  height: 35px;
+  width: 35px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+.xa-popup .popup>.title>.close:after {
+  content: "×";
+  display: block;
+}
+
+.xa-popup .popup>.title>.closemin:after {
+  content: "-";
+  display: block;
+  line-height: 30px;
+}
+
+.xa-popup .popup>.title>.closemax:after {
+  content: "□";
+  display: block;
+  line-height: 30px;
+}
+
+.xa-popup .popup>.title>.close:hover {
+  /* background: rgba(255, 255, 255, 0.1); */
+  /* background-color: rgba(23, 75, 160, 0.7); */
+  background-color: rgba(0, 144, 146, 0.85) !important;
+}
+
+.xa-popup .popup>.main {
+  overflow-y: auto;
+  overflow-x: hidden;
+  max-height: 600px;
+  min-height: 50px;
+}
+
+.xa-popup .popup>.buttons {
+  display: flex;
+  justify-content: s center;
+  padding: 10px 10px;
+  box-shadow: 0 0 6px #ccc;
+}
+
+.xa-popup .popup>.buttons .button {
+  flex: 1;
+  max-width: 170px;
+  text-align: center;
+  cursor: pointer;
+  height: 36px;
+  line-height: 36px;
+  box-shadow: 0 0 1px #ccc;
+  margin: 0 10px;
+  border-radius: 5px;
+}
+
+/* theme库 */
+.xa-bg-eee {
+  background: #eee;
+  color: #333;
+}
+
+.xa-bg-red,
+.xa-bg-red-click {
+  background-color: #f33a3a;
+  color: white;
+}
+
+.xa-bg-orange,
+.xa-bg-orange-click {
+  background-color: #fa9e3b;
+  color: white;
+}
+
+.xa-bg-yellow,
+.xa-bg-yellow-click {
+  background-color: #fff600;
+  color: white;
+}
+
+.xa-bg-green,
+.xa-bg-green-click {
+  background-color: #009000;
+  color: white;
+}
+
+.xa-bg-blue,
+.xa-bg-blue-click {
+  /* background: linear-gradient(white, #f4f4f4); */
+  /* color: #333; */
+  background: transparent;
+  color: #fff;
+  /* border-bottom: 2px #e4e4e4 solid; */
+  border-bottom: 1px #0f7499 solid;
+}
+
+.xa-bg-gray,
+.xa-bg-gray-click {
+  background-color: #bcbcbc;
+}
+
+.xa-bg-white,
+.xa-bg-white-click {
+  background-color: white;
+  color: #333;
+}
+
+.xa-bg-black,
+.xa-bg-black-click {
+  background-color: black;
+  color: white;
+}
+
+.xa-bg-red-click:hover {
+  background-color: #ef4f4f;
+}
+
+.xa-bg-orange-click:hover {
+  background-color: #faae4b;
+}
+
+.xa-bg-yellow-click:hover {
+  background-color: #ffff00;
+}
+
+.xa-bg-green-click:hover {
+  background-color: #009900;
+}
+
+.xa-bg-blue-click:hover {
+  background-color: #007ae2;
+}
+
+.xa-bg-gray-click:hover {
+  background-color: #bcb6bc;
+}
+
+.xa-bg-white-click:hover {
+  background-color: #f2f2f2;
+}
+
+.xa-bg-black-click:hover {
+  background-color: #333;
+}
+
+.xa-click:hover {
+  background: #f2f2f2;
+}

@@ -1,0 +1,138 @@
+.appDiv {
+	width: 19.2rem;
+	height: calc(~'100% - 0.75rem');
+	position: relative;
+	overflow: hidden;
+
+	.appCompontsLeft {
+		height: calc(~"100% - 0.1rem");
+		padding-top: 0.1rem;
+		padding-left: 0.1rem;
+		float: left;
+	}
+
+	.appCompontsRight {
+		height: 100%;
+		float: left;
+		padding: 0.1rem;
+	}
+
+	.appCompontsBottom {
+		height: 45%;
+		padding-top: 0.1rem;
+		background-image: -webkit-gradient(linear, 0 0, 0 bottom, from(rgba(6, 33, 52, 0.4)), to(rgba(3, 13, 20, 0.4)));
+	}
+
+	.appCompontsBottomDiv {
+		height: 100%;
+		border: 1px rgba(3, 100, 135, 1) solid;
+		position: relative;
+		background: rgba(2, 48, 57, 0.7);
+	}
+
+	.appCompontsMap {
+		position: relative;
+	}
+
+	.appMenu {
+		height: 100%;
+		padding: 0 0.1rem;
+		float: left;
+		background: rgba(2, 48, 57, 0.7);
+	}
+
+	.appMenumain {
+		width: 100%;
+		height: 100%;
+		padding-top: 0.15rem;
+	}
+
+	.menuContText {
+		font-family: 'SOURCEHANSANS-NORMAL';
+		letter-spacing: 2px;
+		font-size: 0.17rem;
+		line-height: 1;
+		padding-bottom: 0.1rem;
+		text-shadow: rgb(51 123 189 / 100%) 5px 4px 11px;
+		display: inline-block;
+		vertical-align: middle;
+		margin-top: 0.1rem;
+		margin-left: 0.1rem;
+	}
+
+	.activeT {
+		color: #ffffff;
+		opacity: 1;
+	}
+
+	.activeF {
+		color: #00b0db;
+		opacity: 0.8;
+	}
+
+	.menuimg {
+		width: 0.18rem;
+		height: 0.18rem;
+		margin-top: 0.08rem;
+	}
+
+	.appMenuDiv {
+		padding: 0.07rem;
+		padding-left: 0.15rem;
+		background: #004049;
+		border-radius: 10px;
+	}
+
+	.appMenuDivsel {
+		padding: 0.07rem;
+		padding-left: 0.15rem;
+		background: #007A80;
+		border-radius: 10px;
+	}
+
+	.appCompontsmain {
+		width: 100%;
+		// height: 100%;
+		height: calc(~"100% - 0.4rem");
+	}
+
+	.appCompontsBottomTitle {
+		color: #ffffff;
+		font-size: 0.15rem;
+		height: 0.41rem;
+		line-height: 0.41rem;
+		padding-left: 0.2rem;
+		font-family: 'SOURCEHANSANS-NORMAL';
+		letter-spacing: 2px;
+		background: url(../img/app/菜单背景.png);
+	}
+
+	.appCompontsBottomMain {
+		width: 100%;
+		height: calc(~"100% - 0.4rem");
+	}
+
+	.close_l {
+		position: absolute;
+		right: 0.1rem;
+		top: 0.05rem;
+		font-size: 0.3rem;
+		font-weight: 600;
+		cursor: pointer;
+		color: rgba(255, 255, 255, 0.5);
+	}
+
+	.close {
+		position: absolute;
+		right: 0.1rem;
+		top: 0.1rem;
+		font-size: 0.3rem;
+		font-weight: 600;
+		cursor: pointer;
+	}
+
+	.close_l:hover,
+	.close:hover {
+		color: rgba(255, 255, 255, 1);
+	}
+}

@@ -1,0 +1,9 @@
+drainet:
+  - title: 排水管网
+    name: home
+    type: rout
+    views:
+      - title: 综合
+        name: homepageOverView
+      - title: 运营
+        name: application

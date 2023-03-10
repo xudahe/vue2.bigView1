@@ -1,0 +1,38 @@
+drainet:
+  - title: 排水管网
+    name: components
+    type: compent
+    groups:
+      - title: 健康检测
+        name: health
+        items:
+          - title: 健康检测
+            name: CCTVQuery
+      - title: 查询统计
+        name: information
+        items:
+          - title: 设施查询
+            name: dataQuery
+          - title: 排口统计
+            name: outletmonitor
+          - title: 历史管理
+            name: history
+          - title: 缺陷管理
+            name: defect
+      - title: 运维
+        name: operationsys
+        items:
+          - title: 用户管理
+            name: userManagement
+          - title: 角色管理
+            name: roleManagement
+          - title: 部门管理
+            name: deptManagement
+          - title: 菜单管理
+            name: menuconfig
+          - title: 平台管理
+            name: ptgl
+          - title: 系统管理
+            name: systemconfig
+          - title: 地图服务管理
+            name: mapservice

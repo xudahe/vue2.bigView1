@@ -1,0 +1,80 @@
+.newmapbox {
+  border: 1px #008fff solid;
+}
+
+.app-right-bottom {
+  z-index: 4;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+#mapType {
+  height: 46px;
+  cursor: pointer;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  background-color: rgba(249, 248, 248, 0);
+}
+
+#mapType:hover {
+  width: 120px;
+  background-color: rgba(249, 248, 248, 0.8);
+}
+
+#mapType:hover .earth {
+  right: 60px;
+}
+
+#mapType:hover .scape {
+  right: 120px;
+}
+
+#mapType .mapTypeCard {
+  height: 36px;
+  width: 53px;
+  position: absolute;
+  border-radius: 2px;
+  top: 5px;
+  box-sizing: border-box;
+  border: 1px solid rgba(153, 153, 153, .42);
+  background: url(../../../img/maptype.png);
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+#mapType .mapTypeCard.active span,
+#mapType .mapTypeCard:hover span {
+  background-color: #3385ff;
+}
+
+#mapType .mapTypeCard span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: inline-block;
+  font-size: 12px;
+  height: 12px;
+  line-height: 12px;
+  color: #fff;
+  border-top-left-radius: 2px;
+}
+
+#mapType .mapTypeCard:hover {
+  border: 1px solid #3385ff;
+}
+
+#mapType .earth {
+  right: 0px;
+  z-index: 1;
+}
+
+#mapType .normal {
+  z-index: 2;
+  background-position: 0 0;
+  right: 0px;
+}
+
+#mapType .earth {
+  background-position: 0 -181px;
+}
